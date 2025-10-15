@@ -1,0 +1,150 @@
+/* Base layout */
+body {
+  margin: 0;
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center; /* centers the app horizontally */
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 40px 0;
+}
+
+/* Main container centered */
+.container {
+  width: 90%;
+  max-width: 800px; /* perfect width for readability */
+  background: #2a2a2a;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  padding: 30px 40px;
+  text-align: left;
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  color: #00bfff;
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+
+/* Textarea */
+textarea {
+  width: 100%;
+  height: 90px;
+  margin-bottom: 12px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: inherit;
+  resize: none;
+  background-color: #3a3a3a;
+  color: white;
+}
+
+/* Buttons */
+button {
+  background-color: #00bfff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+button:hover {
+  background-color: #0099cc;
+}
+
+/* Result block */
+.result {
+  background-color: #262626;
+  padding: 16px;
+  border-radius: 8px;
+  margin-top: 18px;
+  line-height: 1.5;
+}
+
+/* History section */
+h2 {
+  margin-top: 30px;
+}
+
+.history {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.history li {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.delete-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: #00bfff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 3px 8px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #0099cc;
+}
+
+/* History controls */
+.history-controls {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.clear-btn {
+  background-color: #ff4c4c;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.clear-btn:hover {
+  background-color: #ff1a1a;
+}
+
+/* Search input */
+input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  background-color: #3a3a3a;
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* Nice background gradient for extra polish */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at top, #2a2a2a 0%, #1e1e1e 80%);
+  z-index: -1;
+}
