@@ -50,6 +50,8 @@ Built using **FastAPI**, **React + Vite**, and **Groq LLMs**.
 5) GET/Root
    <img width="1045" height="494" alt="image" src="https://github.com/user-attachments/assets/e99ae860-8794-46d3-8031-26b8f42062c7" />
 
+## Demo Video
+Link - https://drive.google.com/file/d/1s5VwXZ99FTAcNE82ksYWZjLEZWU8wofR/view?usp=drive_link
 ## Setup Guide
 
 ### 1) Clone the Repository
