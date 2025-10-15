@@ -34,6 +34,9 @@ Built using **FastAPI**, **React + Vite**, and **Groq LLMs**.
 
 <img width="725" height="570" alt="image" src="https://github.com/user-attachments/assets/9368bd9a-15d3-45aa-a997-29467dd0b651" />
 
+## Sample Output
+
+<img width="637" height="769" alt="image" src="https://github.com/user-attachments/assets/1c9ce83a-8861-48a7-8a8c-768981fceaed" />
 
 ## Setup Guide
 
