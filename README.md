@@ -38,6 +38,18 @@ Built using **FastAPI**, **React + Vite**, and **Groq LLMs**.
 
 <img width="637" height="769" alt="image" src="https://github.com/user-attachments/assets/1c9ce83a-8861-48a7-8a8c-768981fceaed" />
 
+## Backend Testing
+1) POST/analyze
+   <img width="1050" height="855" alt="image" src="https://github.com/user-attachments/assets/209dc8f7-92b6-4a0c-8362-ce71d4068a0f" />
+2) GET/history
+   <img width="1053" height="821" alt="image" src="https://github.com/user-attachments/assets/b27759d3-2a15-4f51-8ee7-91b49e2748d5" />
+3) DELETE/history
+   <img width="1044" height="495" alt="image" src="https://github.com/user-attachments/assets/f8d22903-7669-4fdf-a388-7878c6a68832" />
+4) DELETE/history/(entry-id)
+   <img width="1036" height="568" alt="image" src="https://github.com/user-attachments/assets/5469f849-4676-4db6-9794-d229c19dc25d" />
+5) GET/Root
+   <img width="1045" height="494" alt="image" src="https://github.com/user-attachments/assets/e99ae860-8794-46d3-8031-26b8f42062c7" />
+
 ## Setup Guide
 
 ### 1) Clone the Repository
